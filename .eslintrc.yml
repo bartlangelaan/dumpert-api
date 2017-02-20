@@ -1,0 +1,17 @@
+env:
+  es6: true
+  node: true
+extends: 'eslint:all'
+rules:
+  quotes:
+    - error
+    - single
+  max-len:
+    - error
+    - 120
+  sort-vars:
+    - off
+  one-var:
+    - off
+  no-magic-numbers:
+    - off

@@ -1,0 +1,24 @@
+{
+  "name": "dumpert-api",
+  "version": "1.0.0-alpha",
+  "description": "Node.js API for Dumpert.nl",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run coverage && npm run lint",
+    "lint": "eslint src",
+    "doc": "jsdoc2md src/*.js > api.md",
+    "coverage": "istanbul cover _mocha"
+  },
+  "author": "Bart Langelaan",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.3",
+    "jsdoc-to-markdown": "^3.0.0",
+    "mocha": "^3.2.0"
+  }
+}
